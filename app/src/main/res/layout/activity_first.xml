@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mekotlinapps.dnyaneshwar.in.restdemo.acitivty.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Retrofit API calling demo by Dnyneshwar"
+        android:textSize="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/loadList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call API" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="For this tutorial we will use The TMDb API. In order to use this API it is necessary to obtain the API key. Here you can take a look how to obtain the API key. In short, you need to register and login in order to obtain the key."
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="https://www.themoviedb.org/documentation/api"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+</LinearLayout>

@@ -31,12 +31,4 @@
         android:text="For this tutorial we will use The TMDb API. In order to use this API it is necessary to obtain the API key. Here you can take a look how to obtain the API key. In short, you need to register and login in order to obtain the key."
         android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/tvUrl"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="https://www.themoviedb.org/documentation/api"
-        android:textSize="15sp"
-        android:textStyle="italic" />
 </LinearLayout>

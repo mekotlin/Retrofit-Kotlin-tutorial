@@ -29,15 +29,5 @@ class FirstScreen : AppCompatActivity() {
                 toast("Please turn on your Internet")
             }
         }
-
-        tvUrl.setText(Html.fromHtml("<u>https://www.themoviedb.org/documentation/api</u>"))
-        tvUrl.setOnClickListener(object : View.OnClickListener {
-            override fun onClick(v: View?) {
-                val url: String = "https://www.themoviedb.org/documentation/api"
-                val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
-                startActivity(intent)
-            }
-        })
-
     }
 }
